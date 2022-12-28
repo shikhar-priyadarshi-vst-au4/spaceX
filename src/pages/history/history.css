@@ -1,0 +1,9 @@
+.history{
+    max-width: 1280px;
+    margin: auto;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #fefefe;
+}

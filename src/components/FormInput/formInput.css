@@ -1,0 +1,96 @@
+.form-input {
+    position: relative;
+}
+.form-input-field {
+    width: 100%;
+    border-radius: 0.25rem;
+    background-color: #fff;
+    color: #495057;
+    font-weight: 400;
+    font-size: 0.875rem;
+}
+.form-input-field:focus {
+    outline: none;
+    border-color: #ced4da;
+    box-shadow: none;
+}
+.form-input-outlined {
+    border: 1px solid #ced4da;
+}
+.form-input-filled {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #ced4da;
+}
+.form-input-xs {
+    min-height: 28px;
+}
+[data-icon=both] > .form-input-xs {
+    padding-left: 26px;
+    padding-right: 26px;
+}
+[data-icon=left] > .form-input-xs {
+    padding-left: 26px;
+}
+[data-icon=right] > .form-input-xs {
+    padding-right: 26px;
+}
+.form-input-sm {
+    min-height: 40px;
+}
+[data-icon=both] > .form-input-sm {
+    padding-left: 38px;
+    padding-right: 38px;
+}
+[data-icon=left] > .form-input-sm {
+    padding-left: 38px;
+}
+[data-icon=right] > .form-input-sm {
+    padding-right: 38px;
+}
+.form-input-md {
+    min-height: 50px;
+}
+[data-icon=both] > .form-input-md {
+    padding-left: 48px;
+    padding-right: 48px;
+}
+[data-icon=left] > .form-input-md {
+    padding-left: 48px;
+}
+[data-icon=right] > .form-input-md {
+    padding-right: 48px;
+}
+.form-input-lg {
+    min-height: 58px;
+}
+[data-icon=both] > .form-input-lg {
+    padding-left: 56px;
+    padding-right: 56px;
+}
+[data-icon=left] > .form-input-lg {
+    padding-left: 56px;
+}
+[data-icon=right] > .form-input-lg {
+    padding-right: 56px;
+}
+.form-input .form-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #74788d;
+}
+.form-input .form-icon > svg {
+    width: 20px;
+    height: auto;
+}
+.form-input .form-left-icon {
+    left: 10px;
+}
+.form-input .form-right-icon {
+    right: 10px;
+}
+.form-input .form-right-icon > svg {
+    width: 20px;
+}
